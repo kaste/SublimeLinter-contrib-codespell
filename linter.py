@@ -8,3 +8,4 @@ class Codespell(Linter):
     }
     regex = r"^(?P<line>\d+).*\n\s+(?P<message>(?P<near>\w+) ==> .+)"
     multiline = True
+    default_type = "warning"
