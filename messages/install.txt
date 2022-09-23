@@ -1,0 +1,31 @@
+SublimeLinter-contrib-codespell
+-------------------------------
+
+This linter plugin for SublimeLinter provides an interface to codespell.
+
+
+Ensure that a `codespell` is actually installed somewhere on your system. Typically,
+
+
+    $ pip install codespell
+
+
+on the command line will do that.
+
+After installing make sure you can actually run it. E.g.
+
+
+    $ codespell --version
+
+
+You don't have to install it globally though, as always put the executable
+wherever you want and point SublimeLinter to it.  For example, in the global
+settings:
+
+
+    "linters": {
+        "codespell": {
+            "executable": "C:\\Users\\honkytonk\\Downloads\\codespell\\codespell.exe"
+        },
+        ...
+
